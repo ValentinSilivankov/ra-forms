@@ -51,7 +51,7 @@ export const TrainingTable: React.FC<TrainingTableProps> = ({trainings, onEdit, 
                         ) : (
                         <button className="text-blue-500 mr-2" onClick={() => handlerButton(training.date)}>✏️</button>
                         )}
-                        <button className="text-blue-500 mr-2" onClick={() => onDelete(training.date)}>✘</button>
+                        <button className="text-blue-500 mr-2" onClick={() => onDelete(training.date)}>❌</button>
                     </td>
                 </tr>
             ))}
